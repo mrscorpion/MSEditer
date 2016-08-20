@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		744FF1EB1CE45EF0008F06BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 744FF1EA1CE45EF0008F06BF /* main.m */; };
+		744FF1EE1CE45EF0008F06BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 744FF1ED1CE45EF0008F06BF /* AppDelegate.m */; };
+		744FF1F11CE45EF0008F06BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744FF1F01CE45EF0008F06BF /* ViewController.m */; };
+		744FF1F41CE45EF0008F06BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744FF1F21CE45EF0008F06BF /* Main.storyboard */; };
+		744FF1F61CE45EF0008F06BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744FF1F51CE45EF0008F06BF /* Assets.xcassets */; };
+		744FF1F91CE45EF0008F06BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744FF1F71CE45EF0008F06BF /* LaunchScreen.storyboard */; };
+		744FF2021CE45F15008F06BF /* MSWordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 744FF2011CE45F15008F06BF /* MSWordView.m */; };
+		744FF2151CE481A0008F06BF /* MSWord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744FF2141CE481A0008F06BF /* MSWord.storyboard */; };
+		744FF2181CE48910008F06BF /* MSStyleSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744FF2171CE48910008F06BF /* MSStyleSettingsController.m */; };
+		744FF21C1CE592F7008F06BF /* MSWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744FF21B1CE592F7008F06BF /* MSWordViewController.m */; };
+		744FF21F1CE59C30008F06BF /* MSSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 744FF21E1CE59C30008F06BF /* MSSegmentedControl.m */; };
+		744FF2221CE5DAD5008F06BF /* MSStyleFontSizeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 744FF2211CE5DAD5008F06BF /* MSStyleFontSizeCell.m */; };
+		744FF2261CE5DB21008F06BF /* MSStyleColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 744FF2251CE5DB21008F06BF /* MSStyleColorCell.m */; };
+		744FF2291CE5DB52008F06BF /* MSStyleFormatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 744FF2281CE5DB52008F06BF /* MSStyleFormatCell.m */; };
+		744FF22C1CE5DBB0008F06BF /* MSStyleFontStyleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 744FF22B1CE5DBB0008F06BF /* MSStyleFontStyleCell.m */; };
+		744FF22F1CE5DBEE008F06BF /* MSStyleParagraphCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 744FF22E1CE5DBEE008F06BF /* MSStyleParagraphCell.m */; };
+		74C899871CE5F0D900C63C56 /* MSFontSizePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C899861CE5F0D900C63C56 /* MSFontSizePickerView.m */; };
+		74C899FD1CE6F53700C63C56 /* MSColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C899FC1CE6F53700C63C56 /* MSColorPickerView.m */; };
+		74C89A031CE727D400C63C56 /* MSTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C89A021CE727D300C63C56 /* MSTextStyle.m */; };
+		74C89A081CE8BDD400C63C56 /* MSParagraphConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C89A071CE8BDD400C63C56 /* MSParagraphConfig.m */; };
+		74C89A0B1CE9A89D00C63C56 /* NSTextAttachment+MSText.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C89A0A1CE9A89D00C63C56 /* NSTextAttachment+MSText.m */; };
+		74C89A0E1CE9F15C00C63C56 /* MSImageSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C89A0D1CE9F15C00C63C56 /* MSImageSettingsController.m */; };
+		74C89A121CE9FA6200C63C56 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C89A111CE9FA6200C63C56 /* AssetsLibrary.framework */; };
+		74C89A151CE9FEEF00C63C56 /* MSPhotoCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C89A141CE9FEEF00C63C56 /* MSPhotoCollectionCell.m */; };
+		74C89A181CEA100300C63C56 /* MSImagePreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C89A171CEA100300C63C56 /* MSImagePreviewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		744FF1E61CE45EF0008F06BF /* SimpleWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		744FF1EA1CE45EF0008F06BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		744FF1EC1CE45EF0008F06BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		744FF1ED1CE45EF0008F06BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		744FF1EF1CE45EF0008F06BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		744FF1F01CE45EF0008F06BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		744FF1F31CE45EF0008F06BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		744FF1F51CE45EF0008F06BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		744FF1F81CE45EF0008F06BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		744FF1FA1CE45EF0008F06BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		744FF2001CE45F15008F06BF /* MSWordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWordView.h; sourceTree = "<group>"; };
+		744FF2011CE45F15008F06BF /* MSWordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSWordView.m; sourceTree = "<group>"; };
+		744FF2141CE481A0008F06BF /* MSWord.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MSWord.storyboard; sourceTree = "<group>"; };
+		744FF2161CE48910008F06BF /* MSStyleSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSStyleSettingsController.h; sourceTree = "<group>"; };
+		744FF2171CE48910008F06BF /* MSStyleSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSStyleSettingsController.m; sourceTree = "<group>"; };
+		744FF21A1CE592F7008F06BF /* MSWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWordViewController.h; sourceTree = "<group>"; };
+		744FF21B1CE592F7008F06BF /* MSWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSWordViewController.m; sourceTree = "<group>"; };
+		744FF21D1CE59C30008F06BF /* MSSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSegmentedControl.h; sourceTree = "<group>"; };
+		744FF21E1CE59C30008F06BF /* MSSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSegmentedControl.m; sourceTree = "<group>"; };
+		744FF2201CE5DAD5008F06BF /* MSStyleFontSizeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSStyleFontSizeCell.h; sourceTree = "<group>"; };
+		744FF2211CE5DAD5008F06BF /* MSStyleFontSizeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSStyleFontSizeCell.m; sourceTree = "<group>"; };
+		744FF2241CE5DB21008F06BF /* MSStyleColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSStyleColorCell.h; sourceTree = "<group>"; };
+		744FF2251CE5DB21008F06BF /* MSStyleColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSStyleColorCell.m; sourceTree = "<group>"; };
+		744FF2271CE5DB52008F06BF /* MSStyleFormatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSStyleFormatCell.h; sourceTree = "<group>"; };
+		744FF2281CE5DB52008F06BF /* MSStyleFormatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSStyleFormatCell.m; sourceTree = "<group>"; };
+		744FF22A1CE5DBB0008F06BF /* MSStyleFontStyleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSStyleFontStyleCell.h; sourceTree = "<group>"; };
+		744FF22B1CE5DBB0008F06BF /* MSStyleFontStyleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSStyleFontStyleCell.m; sourceTree = "<group>"; };
+		744FF22D1CE5DBEE008F06BF /* MSStyleParagraphCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSStyleParagraphCell.h; sourceTree = "<group>"; };
+		744FF22E1CE5DBEE008F06BF /* MSStyleParagraphCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSStyleParagraphCell.m; sourceTree = "<group>"; };
+		74C899851CE5F0D900C63C56 /* MSFontSizePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSFontSizePickerView.h; sourceTree = "<group>"; };
+		74C899861CE5F0D900C63C56 /* MSFontSizePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSFontSizePickerView.m; sourceTree = "<group>"; };
+		74C899FB1CE6F53700C63C56 /* MSColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSColorPickerView.h; sourceTree = "<group>"; };
+		74C899FC1CE6F53700C63C56 /* MSColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSColorPickerView.m; sourceTree = "<group>"; };
+		74C89A011CE727D300C63C56 /* MSTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTextStyle.h; sourceTree = "<group>"; };
+		74C89A021CE727D300C63C56 /* MSTextStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTextStyle.m; sourceTree = "<group>"; };
+		74C89A051CE7E25B00C63C56 /* MSStyleSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSStyleSettings.h; sourceTree = "<group>"; };
+		74C89A061CE8BDD400C63C56 /* MSParagraphConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSParagraphConfig.h; sourceTree = "<group>"; };
+		74C89A071CE8BDD400C63C56 /* MSParagraphConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSParagraphConfig.m; sourceTree = "<group>"; };
+		74C89A091CE9A89D00C63C56 /* NSTextAttachment+MSText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextAttachment+MSText.h"; sourceTree = "<group>"; };
+		74C89A0A1CE9A89D00C63C56 /* NSTextAttachment+MSText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextAttachment+MSText.m"; sourceTree = "<group>"; };
+		74C89A0C1CE9F15C00C63C56 /* MSImageSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSImageSettingsController.h; sourceTree = "<group>"; };
+		74C89A0D1CE9F15C00C63C56 /* MSImageSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSImageSettingsController.m; sourceTree = "<group>"; };
+		74C89A111CE9FA6200C63C56 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		74C89A131CE9FEEF00C63C56 /* MSPhotoCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPhotoCollectionCell.h; sourceTree = "<group>"; };
+		74C89A141CE9FEEF00C63C56 /* MSPhotoCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPhotoCollectionCell.m; sourceTree = "<group>"; };
+		74C89A161CEA100300C63C56 /* MSImagePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSImagePreviewController.h; sourceTree = "<group>"; };
+		74C89A171CEA100300C63C56 /* MSImagePreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSImagePreviewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		744FF1E31CE45EF0008F06BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C89A121CE9FA6200C63C56 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		744FF1DD1CE45EF0008F06BF = {
+			isa = PBXGroup;
+			children = (
+				74C89A111CE9FA6200C63C56 /* AssetsLibrary.framework */,
+				744FF1E81CE45EF0008F06BF /* SimpleWord */,
+				744FF1E71CE45EF0008F06BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		744FF1E71CE45EF0008F06BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				744FF1E61CE45EF0008F06BF /* SimpleWord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		744FF1E81CE45EF0008F06BF /* SimpleWord */ = {
+			isa = PBXGroup;
+			children = (
+				744FF2031CE45F1B008F06BF /* MSWordView */,
+				744FF1EC1CE45EF0008F06BF /* AppDelegate.h */,
+				744FF1ED1CE45EF0008F06BF /* AppDelegate.m */,
+				744FF1EF1CE45EF0008F06BF /* ViewController.h */,
+				744FF1F01CE45EF0008F06BF /* ViewController.m */,
+				744FF1F21CE45EF0008F06BF /* Main.storyboard */,
+				744FF1F51CE45EF0008F06BF /* Assets.xcassets */,
+				744FF1F71CE45EF0008F06BF /* LaunchScreen.storyboard */,
+				744FF1FA1CE45EF0008F06BF /* Info.plist */,
+				744FF1E91CE45EF0008F06BF /* Supporting Files */,
+			);
+			path = SimpleWord;
+			sourceTree = "<group>";
+		};
+		744FF1E91CE45EF0008F06BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				744FF1EA1CE45EF0008F06BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		744FF2031CE45F1B008F06BF /* MSWordView */ = {
+			isa = PBXGroup;
+			children = (
+				74C89A101CE9F19200C63C56 /* Views */,
+				74C899881CE5F0E700C63C56 /* Util */,
+				744FF2231CE5DADB008F06BF /* Cells */,
+				74C89A0F1CE9F18700C63C56 /* Models */,
+			);
+			name = MSWordView;
+			sourceTree = "<group>";
+		};
+		744FF2231CE5DADB008F06BF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				74C89A051CE7E25B00C63C56 /* MSStyleSettings.h */,
+				744FF22A1CE5DBB0008F06BF /* MSStyleFontStyleCell.h */,
+				744FF22B1CE5DBB0008F06BF /* MSStyleFontStyleCell.m */,
+				744FF22D1CE5DBEE008F06BF /* MSStyleParagraphCell.h */,
+				744FF22E1CE5DBEE008F06BF /* MSStyleParagraphCell.m */,
+				744FF2201CE5DAD5008F06BF /* MSStyleFontSizeCell.h */,
+				744FF2211CE5DAD5008F06BF /* MSStyleFontSizeCell.m */,
+				744FF2241CE5DB21008F06BF /* MSStyleColorCell.h */,
+				744FF2251CE5DB21008F06BF /* MSStyleColorCell.m */,
+				744FF2271CE5DB52008F06BF /* MSStyleFormatCell.h */,
+				744FF2281CE5DB52008F06BF /* MSStyleFormatCell.m */,
+				74C89A131CE9FEEF00C63C56 /* MSPhotoCollectionCell.h */,
+				74C89A141CE9FEEF00C63C56 /* MSPhotoCollectionCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		74C899881CE5F0E700C63C56 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				744FF21D1CE59C30008F06BF /* MSSegmentedControl.h */,
+				744FF21E1CE59C30008F06BF /* MSSegmentedControl.m */,
+				74C899851CE5F0D900C63C56 /* MSFontSizePickerView.h */,
+				74C899861CE5F0D900C63C56 /* MSFontSizePickerView.m */,
+				74C899FB1CE6F53700C63C56 /* MSColorPickerView.h */,
+				74C899FC1CE6F53700C63C56 /* MSColorPickerView.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		74C89A0F1CE9F18700C63C56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74C89A011CE727D300C63C56 /* MSTextStyle.h */,
+				74C89A021CE727D300C63C56 /* MSTextStyle.m */,
+				74C89A061CE8BDD400C63C56 /* MSParagraphConfig.h */,
+				74C89A071CE8BDD400C63C56 /* MSParagraphConfig.m */,
+				74C89A091CE9A89D00C63C56 /* NSTextAttachment+MSText.h */,
+				74C89A0A1CE9A89D00C63C56 /* NSTextAttachment+MSText.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		74C89A101CE9F19200C63C56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				744FF2141CE481A0008F06BF /* MSWord.storyboard */,
+				744FF21A1CE592F7008F06BF /* MSWordViewController.h */,
+				744FF21B1CE592F7008F06BF /* MSWordViewController.m */,
+				744FF2001CE45F15008F06BF /* MSWordView.h */,
+				744FF2011CE45F15008F06BF /* MSWordView.m */,
+				744FF2161CE48910008F06BF /* MSStyleSettingsController.h */,
+				744FF2171CE48910008F06BF /* MSStyleSettingsController.m */,
+				74C89A0C1CE9F15C00C63C56 /* MSImageSettingsController.h */,
+				74C89A0D1CE9F15C00C63C56 /* MSImageSettingsController.m */,
+				74C89A161CEA100300C63C56 /* MSImagePreviewController.h */,
+				74C89A171CEA100300C63C56 /* MSImagePreviewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		744FF1E51CE45EF0008F06BF /* SimpleWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744FF1FD1CE45EF0008F06BF /* Build configuration list for PBXNativeTarget "SimpleWord" */;
+			buildPhases = (
+				744FF1E21CE45EF0008F06BF /* Sources */,
+				744FF1E31CE45EF0008F06BF /* Frameworks */,
+				744FF1E41CE45EF0008F06BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleWord;
+			productName = SimpleWord;
+			productReference = 744FF1E61CE45EF0008F06BF /* SimpleWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		744FF1DE1CE45EF0008F06BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Little Meaning";
+				TargetAttributes = {
+					744FF1E51CE45EF0008F06BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GXHE3742MX;
+					};
+				};
+			};
+			buildConfigurationList = 744FF1E11CE45EF0008F06BF /* Build configuration list for PBXProject "SimpleWord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 744FF1DD1CE45EF0008F06BF;
+			productRefGroup = 744FF1E71CE45EF0008F06BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				744FF1E51CE45EF0008F06BF /* SimpleWord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		744FF1E41CE45EF0008F06BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744FF1F91CE45EF0008F06BF /* LaunchScreen.storyboard in Resources */,
+				744FF2151CE481A0008F06BF /* MSWord.storyboard in Resources */,
+				744FF1F61CE45EF0008F06BF /* Assets.xcassets in Resources */,
+				744FF1F41CE45EF0008F06BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		744FF1E21CE45EF0008F06BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744FF2181CE48910008F06BF /* MSStyleSettingsController.m in Sources */,
+				744FF2261CE5DB21008F06BF /* MSStyleColorCell.m in Sources */,
+				744FF21F1CE59C30008F06BF /* MSSegmentedControl.m in Sources */,
+				744FF1F11CE45EF0008F06BF /* ViewController.m in Sources */,
+				74C899871CE5F0D900C63C56 /* MSFontSizePickerView.m in Sources */,
+				74C899FD1CE6F53700C63C56 /* MSColorPickerView.m in Sources */,
+				74C89A0B1CE9A89D00C63C56 /* NSTextAttachment+MSText.m in Sources */,
+				744FF1EE1CE45EF0008F06BF /* AppDelegate.m in Sources */,
+				74C89A031CE727D400C63C56 /* MSTextStyle.m in Sources */,
+				744FF2291CE5DB52008F06BF /* MSStyleFormatCell.m in Sources */,
+				744FF1EB1CE45EF0008F06BF /* main.m in Sources */,
+				744FF22C1CE5DBB0008F06BF /* MSStyleFontStyleCell.m in Sources */,
+				744FF2221CE5DAD5008F06BF /* MSStyleFontSizeCell.m in Sources */,
+				74C89A151CE9FEEF00C63C56 /* MSPhotoCollectionCell.m in Sources */,
+				744FF22F1CE5DBEE008F06BF /* MSStyleParagraphCell.m in Sources */,
+				74C89A081CE8BDD400C63C56 /* MSParagraphConfig.m in Sources */,
+				744FF2021CE45F15008F06BF /* MSWordView.m in Sources */,
+				744FF21C1CE592F7008F06BF /* MSWordViewController.m in Sources */,
+				74C89A0E1CE9F15C00C63C56 /* MSImageSettingsController.m in Sources */,
+				74C89A181CEA100300C63C56 /* MSImagePreviewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		744FF1F21CE45EF0008F06BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				744FF1F31CE45EF0008F06BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		744FF1F71CE45EF0008F06BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				744FF1F81CE45EF0008F06BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		744FF1FB1CE45EF0008F06BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		744FF1FC1CE45EF0008F06BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		744FF1FE1CE45EF0008F06BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SimpleWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		744FF1FF1CE45EF0008F06BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SimpleWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		744FF1E11CE45EF0008F06BF /* Build configuration list for PBXProject "SimpleWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744FF1FB1CE45EF0008F06BF /* Debug */,
+				744FF1FC1CE45EF0008F06BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		744FF1FD1CE45EF0008F06BF /* Build configuration list for PBXNativeTarget "SimpleWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744FF1FE1CE45EF0008F06BF /* Debug */,
+				744FF1FF1CE45EF0008F06BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 744FF1DE1CE45EF0008F06BF /* Project object */;
+}
